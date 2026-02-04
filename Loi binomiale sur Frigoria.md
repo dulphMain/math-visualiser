@@ -1,4 +1,4 @@
-On a ici une épreuve de Bernoulli qui s'intéresse à la probabilité de drop une clé antique à la fin du donjon de Frigoria. Cette épreuve a 2 issues :
+On a ici une épreuve de Bernoulli qui s'intéresse à la probabilité de drop une clé antique à la fin du donjon de Frigoria. Cette épreuve a 2 issues:
 - Le succès S "la clé est drop" de probabilité p = 0.005
 - L'échec S barre (de probabilité 1 - S)
 L'épreuve est répétée n fois de manière identique et indépendante (précision importante)
