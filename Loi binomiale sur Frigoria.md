@@ -7,9 +7,9 @@ On a donc une variable aléatoire X qui compte le nombre de succès et qui suit 
 On cherche P(X ≥ 1), soit la probabilité qu'au moins une clé antique soit obtenue, en fonction de n (le nombre d'essais)
 
 $P(X ≥ 1) = 1 - P(X = 0)$ # Autrement dit, la probabilité qu'on ne trouve pas aucune clé antique <br>
-$=  1 - \binom{n}{0} * 0.005^0 * (1 - 0.005)^n$  # la formule exacte de p parmi n est n!/(p!(n - p!)), mais 0 parmi n'importe quel nombre vaut 1<br>
-$= 1 - 1 * 1 * 0.995^n$<br>
-$= 1 - 0.995^n$<br>
+		 $=  1 - \binom{n}{0} * 0.005^0 * (1 - 0.005)^n$  # la formule exacte de p parmi n est n!/(p!(n - p!)), mais 0 parmi n'importe quel nombre vaut 1<br>
+		 $= 1 - 1 * 1 * 0.995^n$<br>
+		 $= 1 - 0.995^n$<br>
 
 On va donc chercher P(X ≥ 1) ≥ 0.9 (le nombre minimal d'essais pour que la probabilité de drop soit au moins égale à 90%)
 On peut écrire un programme en python qui va nous donner le résultat en utilisant la formule trouvée plus haut :
